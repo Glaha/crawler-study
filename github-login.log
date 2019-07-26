@@ -1,0 +1,53 @@
+POST https://github.com/session HTTP/1.1
+Host: github.com
+Connection: keep-alive
+Content-Length: 199
+Cache-Control: max-age=0
+Origin: https://github.com
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: https://github.com/session
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: _ga=GA1.2.1186505299.1554867992; _octo=GH1.1.1793112957.1554867992; _device_id=4751e1fdf36018033b8fc6f7cc3891c1; tz=Asia%2FShanghai; has_recent_activity=1; logged_in=no; _gat=1; _gh_sess=SjdiSHlPTUZBWDcxYUV2WmpVYTV6NmNlaWIzdEh1YzR6dWhEeWh0WndDaC9YaGFIcmh4am1tL3ZQMHZRV2ZzMGpnNmkwT0tvQTF6SjBOamlDR1ZyMWhUVlRoNy9TTnhYT2JRNFJCbktPKzYyTVRxQ25OcE41L1hsRnlMdHBiUmozL243RDNBL1NNT05TVEtlZzZVWGRBUjN5ZDg4cVh3MlN0dCs0UmpFWFhVaGp0TVdzRlI1VCtxM0pwaVBVZVRjMHh6MXY3M1RFdFREYVFtcUhIb3pFaDdzb2VLcEd3bEtrcklsSzVYSkJsY0JXaWV0cWY2MnVqQWIvejV6cTBaQzZzSURNUnhnTVRrZFJwV0psU3BwMmc9PS0tQWJnZ2hvc1JhZ2d1VkxWcWhTZ1NPQT09--310add6b73f6bb10c08c2af6093953520e8fbf9d
+
+commit=Sign+in&utf8=%E2%9C%93&authenticity_token=XqxXvE4iIBjY3ZjKfaaeW281JoGdq0K1mCk1TvvMrDpqqfoNhYe8mmsqOkaF462oaVTUqRdwjJIPzCHnRCgE2A%3D%3D&login=Glaha&password=csljh2017&webauthn-support=supported
+
+
+
+
+
+
+
+HTTP/1.1 302 Found
+Date: Fri, 26 Jul 2019 08:04:18 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Server: GitHub.com
+Status: 302 Found
+Vary: X-PJAX
+Location: https://github.com/
+Cache-Control: no-cache
+Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 26 Jul 2019 09:04:18 -0000
+Set-Cookie: user_session=FEySANUJYosjtjh_EALgMDmLgwCQ8g2hw-nQIoJSPe8zHdCy; path=/; expires=Fri, 09 Aug 2019 08:04:18 -0000; secure; HttpOnly
+Set-Cookie: __Host-user_session_same_site=FEySANUJYosjtjh_EALgMDmLgwCQ8g2hw-nQIoJSPe8zHdCy; path=/; expires=Fri, 09 Aug 2019 08:04:18 -0000; secure; HttpOnly; SameSite=Strict
+Set-Cookie: logged_in=yes; domain=.github.com; path=/; expires=Tue, 26 Jul 2039 08:04:18 -0000; secure; HttpOnly
+Set-Cookie: dotcom_user=Glaha; domain=.github.com; path=/; expires=Tue, 26 Jul 2039 08:04:18 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=UW1NWXY5S3Y4TFNvZGxRYkh3a2htenZnL2JKVXc4ZXpxSWRDbUwwY1dTY0MwL09hVTZCV2dvb0x1YTlZTUh0MTJMd04zQVY5V2pWREZMMGRFMWowVGU4TlRzN3hvNEYvbnR2Qk1WV3dsWS9TRUhsMWdvYW1NcU96UHNUMFNhNjRwemR1dVJBblplSmYxY1k5R2ZZTVBjaGlURTBOcFM4YlZsWW0rL0U4YzJUNkx2ZEZDNnY3WTRXVnYyTnlESGh4emNjSU1RbVJ5VFhDN0xuZFNCSmtuR2hvUTVNK3NWUUdUOWcvMS8xMmloMGJJRFhwK0d2M0FFU2pxMHRtRUluL05RWldIcVpLbUQzeWtHVkJ4dGN4RkR4YXVTcDhqMm5HRTMvb1Aza2gzL015YVNCc250Y0RxekRIc2pZSkdhemxLZzZPTnd2cndleDFHbG5yc3FHbm5hWUJUM3A1ZnNPSy9nd1N4SFNZYXFRPS0taW9pM2RpQWRRV0RXbVBONGZYWUd3QT09--c3dbc7ac5da1121b7e0675c2bf567af600ab4b52; path=/; secure; HttpOnly
+X-Request-Id: 9dbfc269-8d92-4ae0-96a2-50ec50530b2a
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Expect-CT: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+Content-Security-Policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com wss://live.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com
+Vary: Accept-Encoding
+X-GitHub-Request-Id: BD40:5714:2CCFB6:3E92F9:5D3AB401
+
+55
+<html><body>You are being <a href="https://github.com/">redirected</a>.</body></html>
+0
+
