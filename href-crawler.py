@@ -24,7 +24,7 @@ while queue:
     except:
         continue
     
-    ex = re.compile('href="(.+?)"')
+    ex = re.compile('href="(.+?)"')     
     
     for x in ex.findall(data):
         if 'http' in x and x not in visited:
