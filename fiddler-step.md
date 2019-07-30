@@ -1,7 +1,5 @@
 # Steps for all programs's crawler
 
----
-
 ## Catalogs
 
 - [Steps for all programs's crawler](#steps-for-all-programss-crawler)
