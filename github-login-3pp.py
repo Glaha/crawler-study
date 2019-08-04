@@ -50,4 +50,4 @@ def login(username, password,token, head, cookies):
     return resp.text
 
 token, cookies_login = getTokenFromGithub(head_get_token)
-login("Glaha", "csljh2017", token, head_login, cookies_login)
+login("Glaha", "xxxxxxx", token, head_login, cookies_login)

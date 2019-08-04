@@ -88,4 +88,4 @@ head_login = {
 opener = getOpener(head_get_token)
 token = getTokenFromGithub(head_get_token, opener)
 opener = buildHeader(opener, head_login)
-login("Glaha", "csljh2017", token, head_login, opener)
+login("Glaha", "xxxxxxx", token, head_login, opener)
